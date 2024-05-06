@@ -25,9 +25,8 @@ Atividade Henrique
 5. Se todos os campos forem válidos, o formulário é enviado.
 
 ## Decodificação das Validações dos números
-
-^: Representa o início da string.
-.[^\d]: O colchete [] indica uma classe de caracteres. O ^ dentro dos colchetes nega a classe, ou seja, ele indica que queremos encontrar qualquer caractere que não esteja na classe seguinte.
-\d: Representa qualquer dígito numérico (0-9).
-+: Indica que o caractere anterior (no nosso caso, [^\d]) pode ocorrer uma ou mais vezes.
-$: Representa o final da string.
+- ^: Representa o início da string.
+- [^\d]: O colchete [] indica uma classe de caracteres. O ^ dentro dos colchetes nega a classe, ou seja, ele indica que queremos encontrar qualquer caractere que não esteja na classe seguinte.
+- \d: Representa qualquer dígito numérico (0-9).
+- +: Indica que o caractere anterior (no nosso caso, [^\d]) pode ocorrer uma ou mais vezes.
+- $: Representa o final da string.
